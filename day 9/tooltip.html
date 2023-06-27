@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h3>Tooltip </h3>
+        <p>Tooltips are not CSS-only plugins, and must therefore be initialized with jQuery: select the specified
+            element and call the tooltip() method.</p>
+        <a href="#" data-toggle="tooltip" title="hello!">Hover over me</a>
+        <img src="https://th.bing.com/th/id/R.688f2121de5d322876b21d7e475225ef?rik=Cb1i1H4YDqdJSA&riu=http%3a%2f%2ffsv-image.autoc-one.jp%2fimages%2f463375%2f001_o.jpg&ehk=srddLR2Eg65mJDWInEBpTnATSUH%2b9lSi22rux0IvBxY%3d&risl=&pid=ImgRaw&r=0"
+            alt="" height="80px" width="80px" data-toggle="tooltip" title="hello!">
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
+</body>
+
+</html>
